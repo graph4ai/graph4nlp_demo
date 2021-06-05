@@ -52,7 +52,7 @@ graph_embedding_args:
     heads: [2, 2, 1]
     attn_drop: 0.2
     negative_slope: 0.2
-    residual: true
+    residual: false
     activation: "relu"
 
 decoder_args:
