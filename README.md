@@ -1,9 +1,9 @@
 # Deep Learning on Graphs for Natural Language Processing Demo
 
 
-The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org), [IJCAI 2021](https://ijcai-21.org), [KDD 2021](https://www.kdd.org/kdd2021/), and [SIGIR 2021](https://sigir.org/sigir2021/). 
+The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org). 
 
-Slides can be downloaded from [NAACL 2021 version](), [IJCAI 2021 version](), [KDD 2021 version](), and [SIGIR 2021 version](). 
+Slides can be downloaded from [NAACL 2021 version](). 
 
 <img align="right"  src="./graph.jpeg">
 
