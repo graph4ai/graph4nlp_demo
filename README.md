@@ -5,7 +5,6 @@ The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) t
 
 Slides can be downloaded from [NAACL 2021 version](). 
 
-<img align="right"  src="./graph.jpeg">
 
 ### Get Started
 
