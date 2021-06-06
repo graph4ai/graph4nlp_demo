@@ -41,6 +41,9 @@ python setup.py install
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 ```
 
+
+### Start Jupyter notebook and run the demo
+
 After complete the above steps, you can start the jupyter notebook server to run the demo:
 ```
 cd graph4nlp_demo/NAACL2021_demo
