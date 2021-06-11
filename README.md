@@ -8,7 +8,7 @@ Slides can be downloaded from [NAACL 2021 version]().
 
 ## Get Started
 
-You will need to install our [graph4nlp library](https://github.com/graph4ai/graph4nlp) in order to run the demo code. Please follow the following environment setup instructinos. Please also refer to the *graph4nlp* repository page for more details on how to use the library.
+You will need to install our [graph4nlp library](https://github.com/graph4ai/graph4nlp) in order to run the demo code. Please follow the following environment setup instructions. Please also refer to the [*graph4nlp* repository page](https://github.com/graph4ai/graph4nlp#readme) for more details on how to use the library.
 
 
 ### Environment setup
