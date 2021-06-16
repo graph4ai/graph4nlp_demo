@@ -1,9 +1,9 @@
 # Deep Learning on Graphs for Natural Language Processing Demo
 
 
-The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org). 
+The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org) and [SIGIR 2021](https://sigir.org/sigir2021/). 
 
-Slides can be downloaded from [NAACL 2021 version](). 
+Slides can be downloaded from [NAACL 2021 version](https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view). 
 
 
 ## Get Started
@@ -46,10 +46,10 @@ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -t
 
 After complete the above steps, you can start the jupyter notebook server to run the demo:
 ```
-cd graph4nlp_demo/NAACL2021_demo
+cd graph4nlp_demo/XYZ
 jupyter notebook
 ```
-
+Note that you will need to change `XYZ` to the specific folder name.
 
 ## Additional Resources:
 
