@@ -1,6 +1,6 @@
 # Data
 dataset: 'trec'
-root_data_dir: 'data/trec'
+root_data_dir: '../data/trec'
 val_split_ratio: 0.2 # validation set split ratio (default: 0.2)
 pretrained_word_emb_name: '840B'
 out_dir: 'out/trec/graphsage_bi_fuse_dependency_ckpt'

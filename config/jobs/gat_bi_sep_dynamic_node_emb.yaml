@@ -5,7 +5,7 @@ decoder_name: "stdrnn"
 graph_construction_args:
   graph_construction_share:
     graph_type: 'node_emb'
-    root_dir: "data/jobs"
+    root_dir: "../data/jobs"
     topology_subdir: 'NodeEmbGraph'
     thread_number: 4
     port: 9000
