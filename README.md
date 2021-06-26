@@ -53,7 +53,7 @@ Note that you will need to change `XYZ` to the specific folder name.
 
 ## Additional Resources:
 
-* [DLG4NLP survey]()
+* [DLG4NLP survey](https://arxiv.org/pdf/2106.06090)
 * [DLG4NLP literature repo](https://github.com/graph4ai/graph4nlp_literature)
 
 <!-- ### Citation: -->
