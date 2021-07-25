@@ -22,7 +22,7 @@ conda activate graph4nlp
 2. Install [graph4nlp](https://github.com/graph4ai/graph4nlp) library
 - Clone the github repo
 ```
-git clone -b stable https://github.com/graph4ai/graph4nlp.git
+git clone -b stable_202108 https://github.com/graph4ai/graph4nlp.git
 cd graph4nlp
 ```
 - Then run `./configure` (or `./configure.bat` if you are using Windows 10) to config your installation. The configuration program will ask you to specify your CUDA version. If you do not have a GPU, please choose 'cpu'.
@@ -46,6 +46,7 @@ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -t
 
 After complete the above steps, you can start the jupyter notebook server to run the demo:
 ```
+pip install notebook
 cd graph4nlp_demo/XYZ
 jupyter notebook
 ```
