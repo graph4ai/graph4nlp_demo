@@ -1,9 +1,9 @@
 # Deep Learning on Graphs for Natural Language Processing Demo
 
 
-The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org) and [SIGIR 2021](https://sigir.org/sigir2021/). 
+The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org), [SIGIR 2021](https://sigir.org/sigir2021/) and [KDD 2021](https://www.kdd.org/kdd2021/). 
 
-Slides can be downloaded from [NAACL 2021 version](https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view). 
+Slides can be downloaded from [NAACL 2021 version](https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view), [SIGIR 2021 version](https://drive.google.com/file/d/1A9Gtzyan4tqFTgmNsNfwOkO4ELR77iNh/view). 
 
 
 ## Get Started
@@ -25,6 +25,8 @@ conda activate graph4nlp
 git clone -b stable_202108 https://github.com/graph4ai/graph4nlp.git
 cd graph4nlp
 ```
+Please use `stable` instead of `stable_202108` if you want to run the NAACL 2021 or SIGIR 2021 demos.
+
 - Then run `./configure` (or `./configure.bat` if you are using Windows 10) to config your installation. The configuration program will ask you to specify your CUDA version. If you do not have a GPU, please choose 'cpu'.
 ```
 ./configure
@@ -54,6 +56,7 @@ Note that you will need to change `XYZ` to the specific folder name.
 
 ## Additional Resources:
 
+* [Graph4NLP library](https://github.com/graph4ai/graph4nlp)
 * [DLG4NLP survey](https://arxiv.org/pdf/2106.06090)
 * [DLG4NLP literature repo](https://github.com/graph4ai/graph4nlp_literature)
 
