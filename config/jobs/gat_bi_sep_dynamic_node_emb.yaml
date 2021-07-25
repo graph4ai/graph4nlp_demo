@@ -6,7 +6,7 @@ graph_construction_args:
   graph_construction_share:
     graph_type: 'node_emb'
     root_dir: "../data/jobs"
-    topology_subdir: 'NodeEmbGraph'
+    topology_subdir: 'node_emb_graph'
     thread_number: 4
     port: 9000
     timeout: 15000
@@ -77,11 +77,11 @@ other_args:
   seed: 1236
   checkpoint_save_path: 'out/jobs/gat_bi_sep_node_emb_ckpt'
   pretrained_word_emb_name: '6B'
-  pretrained_word_emb_url: None
   pretrained_word_emb_cache_dir: '.vector_cache'
   share_vocab: True
   word_emb_size: 300
   beam_size: 4
+  epochs: 200 # number of maximal training epochs
   batch_size: 24
   learning_rate: 1.e-3
   loss_display_step: 10
