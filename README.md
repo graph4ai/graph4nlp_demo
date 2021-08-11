@@ -35,8 +35,13 @@ Please use `stable` instead of `stable_202108` if you want to run the NAACL 2021
 ```
 python setup.py install
 ```
+3. Install other packages
+```
+pip install torchtext
+pip install notebook
+```
 
-3. Set up StanfordCoreNLP (for static graph construction only, unnecessary for this demo because preprocessed data is provided)
+4. Set up StanfordCoreNLP (for static graph construction only, unnecessary for this demo because preprocessed data is provided)
 - Download [StanfordCoreNLP](https://stanfordnlp.github.io/CoreNLP/)
 - Go to the root folder and start the server
 ```
@@ -48,7 +53,6 @@ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -t
 
 After complete the above steps, you can start the jupyter notebook server to run the demo:
 ```
-pip install notebook
 cd graph4nlp_demo/XYZ
 jupyter notebook
 ```
