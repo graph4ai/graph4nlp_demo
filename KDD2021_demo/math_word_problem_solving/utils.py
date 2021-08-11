@@ -1,3 +1,5 @@
+import copy
+import torch
 import sympy
 from random import randint
 from sympy.parsing.sympy_parser import parse_expr
@@ -79,3 +81,14 @@ def compute_tree_accuracy(candidate_list_, reference_list_, form_manager):
     for i in range(len(reference_list_)):
         reference_list.append(reference_list_[i])
     return compute_accuracy(candidate_list, reference_list, form_manager)
+
+def prepare_oov(batch_graph, src_vocab, device):
+    oov_dict = copy.deepcopy(src_vocab)
+    token_matrix = []
+    for n in batch_graph.node_attributes:
+        node_token = n['token']
+        if oov_dict.get_symbol_idx(node_token) == oov_dict.get_symbol_idx(oov_dict.unk_token):
+            oov_dict.add_symbol(node_token)
+        token_matrix.append(oov_dict.get_symbol_idx(node_token))
+    batch_graph.node_features['token_id_oov'] = torch.tensor(token_matrix, dtype=torch.long).to(device)
+    return oov_dict
