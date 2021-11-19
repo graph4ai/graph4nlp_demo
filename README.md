@@ -22,10 +22,11 @@ conda activate graph4nlp
 2. Install [graph4nlp](https://github.com/graph4ai/graph4nlp) library
 - Clone the github repo
 ```
-git clone -b stable_202108 https://github.com/graph4ai/graph4nlp.git
+git clone -b stable_nov2021b https://github.com/graph4ai/graph4nlp.git
 cd graph4nlp
 ```
-Please use `stable` instead of `stable_202108` if you want to run the NAACL 2021 or SIGIR 2021 demos.
+Please use `stable_202108` if you want to run the IJCAI 2021 or KDD 2021 demos, 
+and use `stable` if you want to run the NAACL 2021 or SIGIR 2021 demos.
 
 - Then run `./configure` (or `./configure.bat` if you are using Windows 10) to config your installation. The configuration program will ask you to specify your CUDA version. If you do not have a GPU, please choose 'cpu'.
 ```
