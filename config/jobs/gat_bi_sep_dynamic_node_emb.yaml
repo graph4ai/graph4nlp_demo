@@ -91,5 +91,6 @@ other_args:
   lr_decay_per_epoch: 5
   min_lr: 1.e-3
   val_split_ratio: 0
+  num_workers: 0 # number of data loader workers
   use_gpu: 1 # 0 for don't use cuda, 1 for using cuda
   gpu: 0 # gpu id
