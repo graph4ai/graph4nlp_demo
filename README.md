@@ -1,9 +1,9 @@
 # Deep Learning on Graphs for Natural Language Processing Demo
 
 
-The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org), [SIGIR 2021](https://sigir.org/sigir2021/), [KDD 2021](https://www.kdd.org/kdd2021/) and [IJCAI 2021](http://ijcai-21.org). 
+The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org), [SIGIR 2021](https://sigir.org/sigir2021/), [KDD 2021](https://www.kdd.org/kdd2021/), [IJCAI 2021](http://ijcai-21.org) and [AAAI 2022](https://aaai.org/Conferences/AAAI-22/).
 
-Slides can be downloaded from [NAACL 2021 version](https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view), [SIGIR 2021 version](https://drive.google.com/file/d/1A9Gtzyan4tqFTgmNsNfwOkO4ELR77iNh/view) and [KDD 2021 version](https://drive.google.com/file/d/1sFUz1Yp82oOR9Q95n_GwVI9vmhUxe9oY/view).
+Slides can be downloaded from [here](https://dlg4nlp.github.io/tutorials.html).
 
 
 ## Get Started
@@ -15,18 +15,27 @@ You will need to install our [graph4nlp library](https://github.com/graph4ai/gra
 
 1. Create virtual environment
 ```
-conda create --name graph4nlp python=3.7
+conda create --name graph4nlp python=3.8
 conda activate graph4nlp
 ```
 
 2. Install [graph4nlp](https://github.com/graph4ai/graph4nlp) library
 - Clone the github repo
 ```
-git clone -b stable_nov2021b https://github.com/graph4ai/graph4nlp.git
+git clone -b [branch_version] https://github.com/graph4ai/graph4nlp.git
 cd graph4nlp
 ```
-Please use `stable_202108` if you want to run the IJCAI 2021 or KDD 2021 demos, 
-and use `stable` if you want to run the NAACL 2021 or SIGIR 2021 demos.
+Please choose the branch version corresponding to the demo version as shown in the table below.
+
+| demo version | library branch version |  
+| ---- | ---- |  
+| AAAI 2022 | v0.5.5 |  
+| CLIQ-ai 2021 | stable_nov2021b |  
+| IJCAI 2021 | stable_202108 |  
+| KDD 2021 | stable_202108 |  
+| SIGIR 2021 | stable |  
+| NAACL 2021 | stable |  
+
 
 - Then run `./configure` (or `./configure.bat` if you are using Windows 10) to config your installation. The configuration program will ask you to specify your CUDA version. If you do not have a GPU, please choose 'cpu'.
 ```
