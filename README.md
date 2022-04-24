@@ -1,7 +1,7 @@
 # Deep Learning on Graphs for Natural Language Processing Demo
 
 
-The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org), [SIGIR 2021](https://sigir.org/sigir2021/), [KDD 2021](https://www.kdd.org/kdd2021/), [IJCAI 2021](http://ijcai-21.org) and [AAAI 2022](https://aaai.org/Conferences/AAAI-22/).
+The repository contains code examples for [DLG4NLP](https://dlg4nlp.github.io) tutorials at [NAACL 2021](https://2021.naacl.org), [SIGIR 2021](https://sigir.org/sigir2021/), [KDD 2021](https://www.kdd.org/kdd2021/), [IJCAI 2021](http://ijcai-21.org), [AAAI 2022](https://aaai.org/Conferences/AAAI-22/) and [TheWebConf 2022](https://www2022.thewebconf.org/conference-schedule/).
 
 Slides can be downloaded from [here](https://dlg4nlp.github.io/tutorials.html).
 
@@ -29,6 +29,7 @@ Please choose the branch version corresponding to the demo version as shown in t
 
 | demo version | library branch version |  
 | ---- | ---- |  
+| TheWebConf 2022 | v0.5.5 |
 | AAAI 2022 | v0.5.5 |  
 | CLIQ-ai 2021 | stable_nov2021b |  
 | IJCAI 2021 | stable_202108 |  
