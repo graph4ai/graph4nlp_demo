@@ -5,3 +5,5 @@
 */.vector_cache
 *.DS_Store
 */*/out
+*/*/.vector_cache/
+*.pt
